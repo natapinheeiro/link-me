@@ -1,0 +1,41 @@
+body{
+    background-image: url('../images/ss1.png');
+    /* Faz a imagem caber na tela */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+.profile{
+    border-radius: 50%;
+    width: 20%;
+    border: 5px solid white;
+}
+.text{
+    font-size: 30px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* O hover acontece quando o mouse passa por cima */
+.link:hover {
+    text-decoration: none;
+    color:palevioletred;
+    font-size: 25px;
+}
+.space {
+    margin-right: 30px;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    text-decoration: none;
+}
